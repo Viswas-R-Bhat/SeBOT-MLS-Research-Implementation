@@ -1,6 +1,12 @@
-# SeBot-MLS baseline for MGTAB
+# SeBOT-MLS Research Implementation
 
-A modular Python project for the SNA college baseline: original SeBot global/subgraph/relational user encoders, 30 structural inputs across four levels, H-GNN, A-Fusion, two-class classifier, contrastive + supervised training, validation-selected checkpoints and held-out evaluation.
+A modular, community-maintained research implementation of a SeBot-MLS-style social-bot detection baseline for MGTAB: global/subgraph/relational user encoders, 30 structural inputs across four levels, H-GNN, A-Fusion, two-class classification, contrastive + supervised training, validation-selected checkpoints, and held-out evaluation.
+
+## Project status and scope
+
+This is an independent academic research implementation, not an official release by the SeBot-MLS authors. It began as a college research project and is published here to support transparent, reproducible experimentation. The implementation, experiments, and results may differ from the reference paper and upstream code; read the [specification audit](docs/SPECIFICATION.md) and [measured-results limitations](docs/MGTAB_RESULTS.md) before citing or comparing outcomes.
+
+Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md), follow the [security policy](SECURITY.md), and submit changes through pull requests. The project is licensed under [Apache-2.0](LICENSE); retained third-party material has its own terms documented in [NOTICE](NOTICE).
 
 **Read [the specification audit](docs/SPECIFICATION.md) before presenting this as a reproduction.** Equations/dimensions and the MGTAB 80/10/10 split were checked against the supplied scanned RP1.pdf. The paper does not publish enough implementation detail to guarantee an identical run; unresolved choices are listed explicitly. Reference paper scores are not this project's results. No proposed extensions are included.
 
